@@ -110,13 +110,6 @@ export default props => {
             >
               <Icon glyph="instagram" size={36} />
             </A>
-            <A
-              href="https://www.instagram.com/driveforwardhackathon/"
-              title="Instagram"
-              sx={{ mx: 2 }}
-            >
-              <Icon glyph="instagram" size={36} />
-            </A>
             <A href="mailto:info@hackknight.com" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>

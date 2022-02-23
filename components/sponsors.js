@@ -31,15 +31,23 @@ const Base = styled(Box)`
 
 const data = {
   sponsors: [
-    
-   
+    {
+      name: 'Smart Freight Centre',
+      link:'https://smartfreightcentre.ca',
+      image:'https://cdn.glitch.global/c5a0f0ae-5652-4bbd-a8f5-486ad2f1afba/sfclogo.PNG?v=1645484574117'
+    },
+    {
+      name: 'Gather.town',
+      link:'https://gather.town',
+      image:'https://cdn.glitch.global/c5a0f0ae-5652-4bbd-a8f5-486ad2f1afba/gather-logo.png?v=1645637806946'
+    }
   ],
   additionalSupport: [
     {
-      name: 'Hack Club',
+      /*name: 'Hack Club',
       link: 'https://hackclub.com',
       image: 'https://cdn.glitch.com/0ac33e0f-67fc-4d7d-bb15-8c3456d17607%2Fhackclub.png?v=1570570408172'
-    }
+*/    }
     
   ]
 }

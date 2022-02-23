@@ -269,5 +269,5 @@ export const Team = props => (
       },
       ...props.sx
     }}
-  />
-)
+  />)
+
