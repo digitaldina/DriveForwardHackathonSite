@@ -20,7 +20,7 @@ const Schedule = ({ src, alt, showAlt, wide, ...props }) => {
       }}
     >
       <Image
-        src={src}
+        src="https://cdn.glitch.global/c5a0f0ae-5652-4bbd-a8f5-486ad2f1afba/drive-forward-hackathon-schedule.svg?v=1645636447485"
         alt={alt}
         loading="lazy"
         sx={{ width: '100%', height: '100%', objectFit: 'cover' }}
