@@ -26,7 +26,8 @@
     "react-dom": "^17.0.2",
     "react-spinners": "^1.0.0",
     "rebass": "^4.0.7",
-    "theme-ui": "^0.13.0"
+    "theme-ui": "^0.13.0",
+    "npm": "^8.5.2"
   },
   "license": "MIT"
 }
