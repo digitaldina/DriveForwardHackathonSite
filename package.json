@@ -9,7 +9,6 @@
   "dependencies": {
     "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.17",
-    "@emotion/styled-base": "^11.0.0",
     "@hackclub/icons": "^0.0.1",
     "@mdx-js/loader": "^1.4.5",
     "@mdx-js/react": "^1.4.5",
