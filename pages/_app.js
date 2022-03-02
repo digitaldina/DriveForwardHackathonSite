@@ -1,13 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import { ThemeProvider } from 'theme-ui'
 import { Global } from '@emotion/core'
 import Meta from '../components/meta'
 import Layout from '../components/layout'
 import theme from '../components/theme'
  
-const glitchHost = "https://hackknight.glitch.me/"
 
 const fonts = `
 @font-face {
@@ -67,7 +66,7 @@ export default class extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {}
 
-    if (Component.getStaticProps) {
+    if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx)
     }
 
@@ -78,9 +77,8 @@ export default class extends App {
     const { Component, pageProps } = this.props
 
     return (
-      <Container>
-        <Meta />
-        <Head>
+        <html>
+         <Head>
           <style dangerouslySetInnerHTML={{ __html: fonts }} />
         </Head>
         <ThemeProvider theme={theme}>
@@ -105,8 +103,7 @@ export default class extends App {
           <Layout>
             <Component {...pageProps} />
           </Layout>
-        </ThemeProvider>
-      </Container>
+        </ThemeProvider></html>
     )
   }
 }
