@@ -32,13 +32,14 @@ export const Banner = props => (
           fontFamily: 'Segoe UI',
           lineHeight: 'body',
           fontWeight: 'body',
+          color: '#1985C5',
           mb: 2,
           a: {
-            color: 'red'
+              color: '#1985C5'
           }
         },
         p: {
-          mb: 4
+          mb: 4         
         },
         ul: {
           listStyle: 'none',
@@ -50,7 +51,7 @@ export const Banner = props => (
           mr: 3
         },
           a: {
-          color: '#9095FF'
+          color: '#1985C5'
           }
       }}
     />
@@ -90,7 +91,7 @@ export const Container = ({ wide, ...props }) => (
         mb: [2, 3],
       },
         a: {
-          color: '#5F65F5',
+          color: '#1985C5',
         textDecoration: 'none'
         },
           p: {
@@ -175,7 +176,7 @@ export const List = props => (
       },
       a: {
         fontWeight: 'bold',
-        color: '#B616D6',
+        color: '#1985C5',
         textDecoration: 'none'
       },
       em: {
@@ -196,10 +197,10 @@ export const Gallery = props => (
     sx={{
       display: 'grid',
       gridTemplateColumns: ['auto', null, 'repeat(2, 1fr)'],
-      gridGap: [3, 4, null, 5],
+      gridGap: [2, 3, null, 4],
       width: '100%',
-      px: [3, 4, null, 5],
-      mb: [3, 4, 5, 6],
+      px: [2, 3, null, 4],
+      mb: [2, 3, 4, 5],
       'ul, ol': {
         textAlign: [null, 'right'],
         listStyle: 'none',
@@ -207,12 +208,12 @@ export const Gallery = props => (
       },
       'p, ol, ul': {
         maxWidth: 1080 / 2,
-        p: [3, 4]
+        p: [2, 3]
       },
       'p, li': {
         color: 'muted',
         fontFamily: 'Segoe UI',
-        fontSize: [2, 3],
+        fontSize: [1, 2],
         mt: 0,
         mb: 2
       },
@@ -255,7 +256,7 @@ export const Team = props => (
         fontSize: [0, 1],
         my: 0,
         a: {
-          color: '#5F65F5'
+          color: '#1985C5'
         }
       },
       img: {
