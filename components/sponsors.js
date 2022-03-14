@@ -53,11 +53,6 @@ const data = {
     }
   ],
   additionalSupport: [
-    {
-    /*name: 'Hack Club',
-      link: 'https://hackclub.com',
-      image: 'https://cdn.glitch.com/0ac33e0f-67fc-4d7d-bb15-8c3456d17607%2Fhackclub.png?v=1570570408172'
-    */}
     
   ]
 }
