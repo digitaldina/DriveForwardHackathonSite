@@ -45,6 +45,11 @@ const data = {
       name: 'Geotab',
       link: 'https://www.geotab.com/',
       image: 'https://www.act-news.com/wp-content/uploads/2020/10/geotab-logofull-colour-cmyk-600x80.png'
+    },
+    {
+      name: 'Gather.town',
+      link: 'https://www.gather.town/',
+      image: 'https://cdn.glitch.global/c5a0f0ae-5652-4bbd-a8f5-486ad2f1afba/gather-logo.png?v=1645637806946'
     }
   ],
   additionalSupport: [
