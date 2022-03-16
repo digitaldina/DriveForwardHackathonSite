@@ -6,7 +6,7 @@ export const Banner = props => (
     sx={{
       backgroundImage:'https://cdn.glitch.global/c5a0f0ae-5652-4bbd-a8f5-486ad2f1afba/main_image_bus.jpg?v=1645403241417',
       color: 'white',
-      fontFamily: 'Segoe UI',
+      fontFamily: 'Arial',
       textShadow: '0 2px 4px rgba(0,0,0,.I 75)',
       py: [4, 5, 6, 7],
       mb: [4, 5],
@@ -29,10 +29,9 @@ export const Banner = props => (
         },
         h2: {
           fontSize: [2, 3, 4],
-          fontFamily: 'Segoe UI',
+          fontFamily: 'Arial',
           lineHeight: 'body',
           fontWeight: 'body',
-          color: '#1985C5',
           mb: 2,
           a: {
               color: '#1985C5'
@@ -65,7 +64,7 @@ export const Banner = props => (
           sx={{
           bg: '#1985C5',
           color: 'white',
-          fontFamily: 'Segoe UI',
+          fontFamily: 'Arial',
           marginBottom: 3, 
           }}>Register Now</Button>
       </Link>
@@ -96,7 +95,7 @@ export const Container = ({ wide, ...props }) => (
         },
           p: {
             fontSize: [1, 2],
-              fontFamily: 'Segoe UI'
+              fontFamily: 'Arial'
           },
       ...props.sx,
       
@@ -115,7 +114,7 @@ export const Callout = props => (
       boxShadow: 'sheet',
       mb: [4, 5],
       h2: {
-        fontFamily: 'Segoe UI',
+        fontFamily: 'Arial',
         lineHeight: 'body',
         fontWeight: 'body',
         mb: 2},
@@ -136,7 +135,7 @@ export const Venue = props => (
       boxShadow: 'sheet',
       mb: [4, 5],
       h2: {
-        fontFamily: 'Segoe UI',
+        fontFamily: 'Arial',
         lineHeight: 'body',
         fontWeight: 'body',
         mb: 2},
@@ -154,7 +153,7 @@ Drive Forward will be running on <Link href="https://www.gather.town/">gather.to
           sx={{
           bg: '#1985C5', 
           color: 'white',
-          fontFamily: 'Segoe UI',
+          fontFamily: 'Arial',
           mt: '1rem'
           }}>Join the Discord</Button>
       </Link>
@@ -182,7 +181,7 @@ export const List = props => (
       em: {
         display: 'block',
         color: 'muted',
-        fontFamily: 'Segoe UI',
+        fontFamily: 'Arial',
         fontWeight: 'body',
         fontStyle: 'normal',
         fontSize: 0
@@ -212,7 +211,7 @@ export const Gallery = props => (
       },
       'p, li': {
         color: 'muted',
-        fontFamily: 'Segoe UI',
+        fontFamily: 'Arial',
         fontSize: [1, 2],
         mt: 0,
         mb: 2
@@ -250,7 +249,7 @@ export const Team = props => (
       em: {
         display: 'block',
         color: 'muted',
-        fontFamily: 'Segoe UI',
+        fontFamily: 'Arial',
         fontWeight: 'body',
         fontStyle: 'normal',
         fontSize: [0, 1],

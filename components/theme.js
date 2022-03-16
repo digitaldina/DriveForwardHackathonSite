@@ -46,9 +46,9 @@ const theme = merge(base, {
     }
   },
   fonts: {
-    body: 'Segoe UI',
-    heading: 'Segoe UI',
-    mono: '"iA Quattro", Menlo, monospace'
+    body: 'Arial',
+    heading: 'Arial',
+    mono: 'Arial'
   },
   lineHeights: {
     body: 1.5,
@@ -78,21 +78,10 @@ const theme = merge(base, {
   },
   text: {
     heading: {
-      fontFamily: 'Roboto',
+      fontFamily: 'Arial',
       fontWeight: 'heading',
       lineHeight: 'heading'
     }
-    //   display: {
-    //     fontFamily: 'heading',
-    //     fontWeight: 'heading',
-    //     lineHeight: 'heading',
-    //     letterSpacing: 'heading',
-    //     fontSize: [5, 6, 7]
-    //   },
-    //   caps: {
-    //     textTransform: 'uppercase',
-    //     letterSpacing: 'caps'
-    //   }
   },
   variants: {
     container: {
@@ -102,7 +91,7 @@ const theme = merge(base, {
       px: 3
     },
     heading: {
-      fontFamily: 'Roboto',
+      fontFamily: 'Arial',
       fontWeight: 'heading',
       lineHeight: 'heading'
     },
@@ -134,7 +123,7 @@ const theme = merge(base, {
       }
     },
     p: {
-      fontFamily: 'Roboto'
+      fontFamily: 'Arial'
     },
     img: {
       maxWidth: '100%',
